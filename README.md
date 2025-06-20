@@ -50,7 +50,7 @@ git clone https://github.com/yourusername/php-crud-app.git
 cd php-crud-app
 Set up the database
 
-sql
+```sql
 CREATE DATABASE crud;
 USE crud;
 
@@ -69,13 +69,14 @@ CREATE TABLE `comments` (
   PRIMARY KEY (`id`),
   FOREIGN KEY (`product_id`) REFERENCES products(`id`) ON DELETE CASCADE
 );
+```
 Configure database connection
 Edit config/connect.php with your credentials:
 
-php
+```php
 $connect = mysqli_connect("localhost", "your_username", "your_password", "crud");
 Launch the application
-
+```
 Place the project in your web server's root directory
 
 Access via: http://localhost/php-crud-app/index.php
