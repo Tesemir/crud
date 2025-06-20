@@ -1,7 +1,7 @@
-🚀 PHP CRUD Application with MySQL
+### PHP CRUD Application with MySQL
 A sleek and efficient product management system built with PHP and MySQL that lets you handle products and customer comments with ease.
 
-🌟 Features
+## Features
 Full CRUD Functionality
 Create, Read, Update, and Delete products effortlessly
 
@@ -24,32 +24,31 @@ Works well on various devices
 ```text
 php-crud-app/
 ├── config/
-│   └── connect.php        # Database connection
+│   └── connect.php        
 ├── vendor/
-│   ├── create.php         # Product creation handler
-│   ├── update.php         # Product update handler
-│   ├── delete.php         # Product deletion handler
-│   └── create_comment.php # Comment creation handler
-├── index.php              # Product listing and creation form
-├── product.php            # Product details view
-├── update.php             # Product edit form
-└── README.md              # Project documentation
+│   ├── create.php         
+│   ├── update.php         
+│   ├── delete.php         
+│   └── create_comment.php 
+├── index.php              
+├── product.php            
+├── update.php             
+└── README.md              
 ```
-🚀 Quick Start
+## Quick Start
 Prerequisites
 PHP 7.0+
-
 MySQL 5.7+
-
 Web server (Apache/Nginx)
 
 Installation
 Clone the repository
 
-bash
-git clone https://github.com/yourusername/php-crud-app.git
-cd php-crud-app
+```bash
+git clone https://github.com/yourusername/crud.git
+cd crud
 Set up the database
+```
 
 ```sql
 CREATE DATABASE crud;
@@ -82,7 +81,7 @@ Place the project in your web server's root directory
 
 Access via: http://localhost/php-crud-app/index.php
 
-📝 Usage
+## Usage
 View all products - Browse through your product catalog
 
 Add new products - Expand your inventory with ease
