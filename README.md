@@ -14,14 +14,14 @@ Simple and intuitive user interface
 Responsive Design
 Works well on various devices
 
-🛠 Tech Stack
-https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white
-https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white
-https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+## Tech Stack
+- PHP
+- MySQL
+- HTML
+- CSS
 
-📂 Project Structure
-text
+## Project Structure
+```text
 php-crud-app/
 ├── config/
 │   └── connect.php        # Database connection
@@ -34,6 +34,7 @@ php-crud-app/
 ├── product.php            # Product details view
 ├── update.php             # Product edit form
 └── README.md              # Project documentation
+```
 🚀 Quick Start
 Prerequisites
 PHP 7.0+
