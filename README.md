@@ -21,9 +21,6 @@ HTML
 CSS
 
 Project Structure
-pgsql
-Copy
-Edit
 project-root/
 │
 ├── config/
