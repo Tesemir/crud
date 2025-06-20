@@ -42,7 +42,7 @@ git clone https://github.com/yourusername/crud.git
 cd crud
 2. Create the Database
 Open your MySQL client (e.g., phpMyAdmin, MySQL CLI) and run the following SQL to create the required tables:
-
+sql
 CREATE DATABASE crud;
 
 USE crud;
@@ -78,4 +78,5 @@ if (!$connect) {
 Place the project folder inside your local web server directory (e.g., htdocs/ for XAMPP or www/ for WAMP).
 
 Start your web server and navigate to:
+arduino
 http://localhost/crud/index.php
